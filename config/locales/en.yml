@@ -1,7 +1,25 @@
 en:
   title_head: "Ruby on Rails Tutorial"
+  sample_app: "Sample App"
+  layouts:
+    application:
+        english: "English"
+        vietnam: "Vietnam"
+    footer:
+        title_head: "The Ruby on Rails Tutorial"
+        contact: "Contact"
+        news: "News"
+        about: "About"
+        by: "by"
+    header:
+        sample_app: "Sample App"
+        Home: "Home"
+        Help: "Help"
+        Log_in: "Login"
+
   static_pages:
     home:
+        sign_up: "Sign up now!"
         sample_app: "Sample App"
         title: "Home"
         home_page: "This is home page"
