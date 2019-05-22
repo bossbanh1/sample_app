@@ -1,4 +1,5 @@
 en:
+  title_head: "Ruby on Rails Tutorial"
   static_pages:
     home:
         sample_app: "Sample App"
@@ -24,7 +25,7 @@ en:
         and: "and"
         screencast_series: "screencast series   "
         teach_web: "to teach web development with"
-        ruby_on_rails: "Ruby on Rails"
+        ruby_on_rails: "Ruby on Rails Tutorial"
         this_app: "This is the sample application for the tutorial."
 
 
