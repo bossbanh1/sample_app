@@ -1,10 +1,8 @@
 <% provide :title, t(".contact") %>
 
-<h1><%= t ".contact" %></h1>
+<h1><%= t".contact" %></h1>
 <p>
-  <h1><%= t ".contact_the_ruby" %></h1>
-  <a href="https://www.railstutorial.org/contact"><%= t ".contact_page" %></a>.
+  <%= t".contact_the_ruby" %>
+  <%= link_to t(".contact_page"), "https://www.railstutorial.org/contact" %>.
 </p>
-<%= link_to_unless I18n.locale == :en, "English", locale: :en %> |
-<%= link_to_unless I18n.locale == :vi, "Việt Nam", locale: :vi %>
 
