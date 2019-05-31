@@ -1,49 +1,62 @@
 en:
-  title_head: "Ruby on Rails Tutorial"
-  sample_app: "Sample App"
-  layouts:
-    application:
-        english: "English"
-        vietnam: "Vietnam"
-    footer:
-        title_head: "The Ruby on Rails Tutorial"
-        contact: "Contact"
-        news: "News"
-        about: "About"
-        by: "by"
-    header:
-        sample_app: "Sample App"
-        Home: "Home"
-        Help: "Help"
-        Log_in: "Login"
+    title_head: "Ruby on Rails Tutorial"
+    sample_app: "Sample App"
+    sign_up: "Sign Up"
+    btn_create: "Create my account"
+    welcome: "Welcome to the Sample App!"
+    form: "The form contains"
+    error: "error"
+    error_user: "Error: User does not exits"
+    activerecord:
+        attributes:
+            user:
+                name: "Name"
+                email: "Email"
+                password: "Password"
+                password_confirmation: "Confirmation"
+    layouts:
+        application:
+            english: "English"
+            vietnam: "Vietnam"
+        footer:
+            title_head: "The Ruby on Rails Tutorial"
+            contact: "Contact"
+            news: "News"
+            about: "About"
+            by: "by"
+        header:
+            sample_app: "Sample App"
+            Home: "Home"
+            Help: "Help"
+            Log_in: "Login"
 
-  static_pages:
-    home:
-        sign_up: "Sign up now!"
-        sample_app: "Sample App"
-        title: "Home"
-        home_page: "This is home page"
-        ruby_on_rails: "Ruby on Rails Tutorial"
+    static_pages:
+        home:
+            sign_up: "Sign up now!"
+            sample_app: "Sample App"
+            title: "Home"
+            home_page: "This is home page"
+            ruby_on_rails: "Ruby on Rails Tutorial"
 
-    help:
-        help: "Help"
-        get_help: "Get help on the Ruby on Rails Tutorial at the"
-        help_section: "Rails Tutorial help section"
-        to_get: "To get help on this sample app, see the"
-        ruby_on_rails: "Ruby on Rails Tutorial"
-        book: "book"
-    contact:
-        contact: "Contact"
-        contact_the_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
-        contact_page: "Contact Page"
-    about:
-        about: "About"
-        the: "The <a href=\"https://www.railstutorial.org/\"><em>Ruby on Rails Tutorial</em></a> is a"
-        book: "book"
-        and: "and"
-        screencast_series: "screencast series   "
-        teach_web: "to teach web development with"
-        ruby_on_rails: "Ruby on Rails Tutorial"
-        this_app: "This is the sample application for the tutorial."
+        help:
+            help: "Help"
+            get_help: "Get help on the Ruby on Rails Tutorial at the"
+            help_section: "Rails Tutorial help section"
+            to_get: "To get help on this sample app, see the"
+            ruby_on_rails: "Ruby on Rails Tutorial"
+            book: "book"
+        contact:
+            contact: "Contact"
+            contact_the_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+            contact_page: "Contact Page"
+        about:
+            about: "About"
+            the: "The <a href=\"https://www.railstutorial.org/\"><em>Ruby on Rails Tutorial</em></a> is a"
+            book: "book"
+            and: "and"
+            screencast_series: "screencast series   "
+            teach_web: "to teach web development with"
+            ruby_on_rails: "Ruby on Rails Tutorial"
+            this_app: "This is the sample application for the tutorial."
 
 
