@@ -2,11 +2,23 @@ en:
     title_head: "Ruby on Rails Tutorial"
     sample_app: "Sample App"
     sign_up: "Sign Up"
+    log_in: "Log in"
+    log_out: "Log out"
+    profile: "Profile"
+    settings: "Settings"
+    account: "Account"
+    user: "Users"
     btn_create: "Create my account"
+    btn_login: "Log in"
     welcome: "Welcome to the Sample App!"
     form: "The form contains"
     error: "error"
     error_user: "Error: User does not exits"
+    new_user: "New user?"
+    sign_up_now: "Sign up now!"
+    name: "Name"
+    password: "Password"
+    error_login: "Invalid email/password combination"
     activerecord:
         attributes:
             user:

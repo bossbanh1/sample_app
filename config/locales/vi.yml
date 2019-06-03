@@ -1,60 +1,71 @@
 vi:
-    title_head: "Hướng dẫn Ruby on Rails"
-    sample_app: "Ứng dụng mẫu"
-    sign_up: "Đăng ký"
-    btn_create: "Tạo tài khoản"
-    welcome: "Chào mừng đến với ứng dụng mẫu!"
-    form: "Biểu mẫu có chứa"
-    error: "lỗi"
-    error_user: "Người dùng không tồn tại"
-    activerecord:
-        attributes:
-            user:
-                name: "Tên"
-                email: "Địa chỉ email"
-                password: "Mật khẩu"
-                password_confirmation: "Xác nhận lại mật khẩu"
-    layouts:
-        application:
-            english: "Tiếng anh"
-            vietnam: "Việt nam"
-        footer:
-            title_head: "Hướng dẫn Ruby on Rails"
-            contact: "Liên hệ"
-            news: "Tin tức"
-            about: "Giới thiệu"
-            by: "bởi"
-        header:
-            sample_app: "Ứng dụng mẫu"
-            Home: "Trang chủ"
-            Help: "Hỗ trợ"
-            Log_in: "Đăng nhập"
-    static_pages:
-        home:
-            sign_up: "Đăng ký ngay!"
-            sample_app: "Ứng dụng mẫu"
-            title: "Trang chủ"
-            home_page: "Đây là trang chủ"
-            ruby_on_rails: "Hướng dẫn ruby on rails"
-
-        help:
-            help: "Hỗ trợ"
-            get_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
-            help_section: "Phần trợ giúp của Rails Tutorial"
-            to_get: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
-            ruby_on_rails: "Hướng dẫn ruby on rails"
-            book: "sách"
-        contact:
-            contact: "Liên hệ"
-            contact_the_ruby: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
-            contact_page: "Trang liên hệ"
-        about:
-            about: "Giới thiệu"
-            the: "<a href=\"https://www.railstutorial.org/\"><em>Ruby on Rails Tutorial</em></a> là một"
-            book: "cuốn sách"
-            and: "và"
-            screencast_series: "loạt ảnh"
-            teach_web: "để dạy phát triển web với"
-            ruby_on_rails: "Hướng dẫn ruby on rails"
-            this_app: "Đây là ứng dụng mẫu cho hướng dẫn."
+  title_head: "Hướng dẫn Ruby on Rails"
+  sample_app: "Ứng dụng mẫu"
+  sign_up: "Đăng ký"
+  log_in: "Đăng nhập"
+  log_out: "Đăng xuất"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  account: "Tài khoản"
+  user: "Người dùng"
+  btn_create: "Tạo tài khoản"
+  btn_login: "Đăng nhập"
+  welcome: "Chào mừng đến với ứng dụng mẫu!"
+  form: "Biểu mẫu có chứa"
+  error: "lỗi"
+  error_user: "Người dùng không tồn tại"
+  new_user: "Bạn chưa có tài khoản?"
+  sign_up_now: "Đăng ký ngay!"
+  name: "Tên"
+  password: "Mật khẩu"
+  error_login: "Email / mật khẩu không hợp lệ"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Địa chỉ email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận lại mật khẩu"
+  layouts:
+    application:
+      english: "Tiếng anh"
+      vietnam: "Việt nam"
+    footer:
+      title_head: "Hướng dẫn Ruby on Rails"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      about: "Giới thiệu"
+      by: "bởi"
+    header:
+      sample_app: "Ứng dụng mẫu"
+      Home: "Trang chủ"
+      Help: "Hỗ trợ"
+      Log_in: "Đăng nhập"
+  static_pages:
+    home:
+      sign_up: "Đăng ký ngay!"
+      sample_app: "Ứng dụng mẫu"
+      title: "Trang chủ"
+      home_page: "Đây là trang chủ"
+      ruby_on_rails: "Hướng dẫn ruby on rails"
+    help:
+      help: "Hỗ trợ"
+      get_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      help_section: "Phần trợ giúp của Rails Tutorial"
+      to_get: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      ruby_on_rails: "Hướng dẫn ruby on rails"
+      book: "sách"
+    contact:
+      contact: "Liên hệ"
+      contact_the_ruby: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "Trang liên hệ"
+    about:
+      about: "Giới thiệu"
+      the: "<a href=\"https://www.railstutorial.org/\"><em>Ruby on Rails Tutorial</em></a> là một"
+      book: "cuốn sách"
+      and: "và"
+      screencast_series: "loạt ảnh"
+      teach_web: "để dạy phát triển web với"
+      ruby_on_rails: "Hướng dẫn ruby on rails"
+      this_app: "Đây là ứng dụng mẫu cho hướng dẫn."
 
