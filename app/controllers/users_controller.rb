@@ -1,9 +1,8 @@
 class UsersController < ApplicationController
   def show
     return if current_user
-      flash[:danger] = t "error_user"
-      redirect_to root_path
-
+    flash[:danger] = t "error_user"
+    redirect_to root_path
   end
 
   def new
@@ -14,6 +13,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
+      log_in @user
       flash[:success] = t "welcome"
       redirect_to @user
     else
