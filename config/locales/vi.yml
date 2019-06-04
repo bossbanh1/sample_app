@@ -19,6 +19,7 @@ vi:
   name: "Tên"
   password: "Mật khẩu"
   error_login: "Email / mật khẩu không hợp lệ"
+  remember_check: "Hãy nhớ tôi trên máy tính này"
   activerecord:
     attributes:
       user:
