@@ -19,6 +19,7 @@ en:
     name: "Name"
     password: "Password"
     error_login: "Invalid email/password combination"
+    remember_check: "Remember me on this computer"
     activerecord:
         attributes:
             user:

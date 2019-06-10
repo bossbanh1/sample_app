@@ -2,3 +2,4 @@ max_length: 255
 name_length: 50
 pass_min_lg: 6
 size: 80
+num: "1"
