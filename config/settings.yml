@@ -4,3 +4,7 @@ pass_min_lg: 6
 size: 80
 num: "1"
 page_num: 15
+micro_lg: 140
+size_pic: 5
+wight_img: 400
+heght_img: 400

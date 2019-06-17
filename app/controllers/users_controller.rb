@@ -8,6 +8,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = find_user.microposts.paginate page: params[:page],
+                    per_page: Settings.page_num
     return if find_user
     flash[:danger] = t "error_user"
     redirect_to root_path
@@ -52,14 +54,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "pls_log"
-    redirect_to login_url
   end
 
   def correct_user
