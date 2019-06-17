@@ -20,6 +20,20 @@ vi:
   password: "Mật khẩu"
   error_login: "Email / mật khẩu không hợp lệ"
   remember_check: "Hãy nhớ tôi trên máy tính này"
+  update_succ: "Cập nhật thành công"
+  update_fails: "Cập nhật thất bại"
+  delete: "Xóa"
+  you_sure: "Bạn đã chắc chắn chưa?"
+  change: "Thay đổi"
+  edit_user: "Cập nhật thông tin"
+  update_pro: "Cập nhật thông tin cá nhân"
+  btn_save: "Lưu cập nhật"
+  list_user: "Danh sách người dùng"
+  del_user: "Xóa thành công"
+  pls_log: "Hãy đăng nhập"
+  will_paginate:
+    previous_label: "Trang trước"
+    next_label: "Trang sau"
   activerecord:
     attributes:
       user:
