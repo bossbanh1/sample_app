@@ -41,6 +41,10 @@ en:
   ago: "ago."
   feed: "Micropost feed"
   micropost: "Micropost"
+  unfollow: "Unfollow"
+  follow: "Follow"
+  following: "following"
+  followers: "followers"
   will_paginate:
     previous_label: "Previous Page"
     next_label: "Next Page"

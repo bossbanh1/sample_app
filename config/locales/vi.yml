@@ -41,6 +41,10 @@ vi:
   ago: "trước."
   feed: "Danh sách micropost"
   micropost: "Bài đăng cá nhân"
+  unfollow: "Hủy theo dõi"
+  follow: "Theo dõi"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
   will_paginate:
     previous_label: "Trang trước"
     next_label: "Trang sau"
