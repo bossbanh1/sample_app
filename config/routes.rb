@@ -16,5 +16,6 @@ Rails.application.routes.draw do
       resources :following
       resources :followers
     end
+    resources :account_activations, only: [:edit]
   end
 end
